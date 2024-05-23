@@ -1,0 +1,11 @@
+{
+  "name": "Simple Alpine Devcontainer",
+  "image": "alpine:latest",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/ash"
+  },
+  "extensions": [],
+  "postCreateCommand": "echo 'Devcontainer setup complete!'",
+  "forwardPorts": [],
+  "remoteUser": "root"
+}
